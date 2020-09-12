@@ -1,8 +1,9 @@
 {
   "name": "laser-chess-online",
   "version": "1.0.0",
-  "description": "",
+  "description": "A game similar to chess, but with lasers",
   "main": "server.mjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,8 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "http": "0.0.1-security",
-    "url": "^0.11.0"
+    "normalize.css": "^8.0.1",
+    "url": "^0.11.0",
+    "yaml": "^1.10.0"
   }
 }
